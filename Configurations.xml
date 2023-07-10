@@ -1,19 +1,10 @@
 <Configuration>
-  <Add OfficeClientEdition="64" Channel="Monthly">
-    <Product ID="ProPlus2019Retail">
-      <Language ID="en-us"/>
-      <ExcludeApp ID="Groove"/>
-      <ExcludeApp ID="Lync"/>
-      <ExcludeApp ID="OneNote"/>
-      <ExcludeApp ID="Publisher"/>
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="D:\Toni\Archive\Developer\ODT">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
     </Product>
-    <Product ID="VisioPro2019Retail">
-      <Language ID="en-us"/>
-    </Product>
-    <Product ID="ProofingTools">
-      <Language ID="ar-sa"/>
-    </Product>
+    <!-- <Product ID="ProjectProRetail"><Language ID="en-us" /></Product> -->
+    <!-- <Product ID="VisioProRetail"><Language ID="en-us" /></Product> -->
   </Add>
-  <Updates Enabled="TRUE" />
-  <Display Level="Full" AcceptEULA="TRUE" />
+  <Updates Enabled="TRUE" Channel="Current" />
 </Configuration>
